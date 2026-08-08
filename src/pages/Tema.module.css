@@ -1,0 +1,280 @@
+.container {
+    width: 97%;
+    height: 98vh;
+
+    color: #1d2433;
+
+    background:
+        radial-gradient(circle at top center,
+            rgba(25, 72, 184, 0.08),
+            transparent 45%),
+        #ffffff;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 40px rgba(13, 43, 122, 0.12),
+        0 0 25px rgba(199, 154, 31, 0.12),
+        inset 0 0 30px rgba(255, 255, 255, 0.9);
+
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 30px;
+}
+
+.linhaTema {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+/* =========================
+   ÁREA SUPERIOR
+========================= */
+
+.area_info {
+    width: 95%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    flex-shrink: 0;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+    width: 300px;
+    height: auto;
+
+    position: relative;
+    z-index: 2;
+
+    object-fit: contain;
+
+    filter:
+        drop-shadow(0 0 20px rgba(13, 43, 122, 0.15)) drop-shadow(0 0 12px rgba(199, 154, 31, 0.12));
+}
+
+
+/* =========================
+   NOME DA IGREJA
+========================= */
+
+.tab_nome {
+    width: 100%;
+
+    margin: 8px 0;
+
+    font-size: clamp(26px, 3vw, 42px);
+
+    color: #0d2b7a;
+
+    font-weight: 800;
+
+    letter-spacing: 0.5px;
+
+    text-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   TEMA
+========================= */
+
+.tema {
+    width: 100%;
+
+    margin-top: 15px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tema h1 {
+    margin: 5px 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+
+/* TEMA: */
+
+.tituloTema {
+    font-size: clamp(28px, 3vw, 42px);
+
+    color: #0d2b7a;
+
+    letter-spacing: 4px;
+
+    font-weight: 800;
+}
+
+
+/* TÍTULO DO TEMA */
+
+.foco {
+    font-size: clamp(32px, 4vw, 54px);
+
+    line-height: 1.2;
+
+    color: #c79a1f;
+
+    font-weight: 800;
+
+    text-align: center;
+
+    letter-spacing: 1px;
+
+    text-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.08),
+        0 0 8px rgba(199, 154, 31, 0.12);
+}
+
+
+/* =========================
+   REFERÊNCIAS
+========================= */
+
+.referencia_biblicas {
+    width: 90%;
+
+    max-height: 28vh;
+
+    padding: 15px 25px;
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(135deg,
+            rgba(13, 43, 122, 0.04),
+            rgba(199, 154, 31, 0.06));
+
+    border:
+        1px solid rgba(199, 154, 31, 0.35);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    overflow-y: auto;
+}
+
+
+/* =========================
+   LIVROS
+========================= */
+
+.livros {
+    width: 100%;
+
+    font-size: clamp(26px, 3vw, 38px);
+
+    line-height: 1.6;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    justify-content: center;
+
+    color: #1d2433;
+
+    padding-left: 35px;
+}
+
+
+.livros li {
+    margin-bottom: 8px;
+
+    font-weight: 700;
+}
+
+
+/* =========================
+   RODAPÉ
+========================= */
+
+.footer {
+    width: 100%;
+
+    text-align: center;
+
+    font-size: clamp(20px, 2vw, 28px);
+
+    font-style: italic;
+
+    letter-spacing: 1px;
+
+    color: #555;
+
+    margin-top: 5px;
+
+    flex-shrink: 0;
+}
+
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 900px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .logo {
+        width: 220px;
+    }
+
+    .tema h1 {
+        flex-direction: column;
+    }
+
+    .referencia_biblicas {
+        width: 100%;
+    }
+}

@@ -1,0 +1,4 @@
+:root {
+    --fundoPCulto: radial-gradient(circle at top, #ffffff 0%, #f8fbff 45%, #eef5ff 75%, #e6eefc 100%);
+    --sombraPCulto: 0 10px 40px rgba(0, 51, 153, .15), 0 0 20px rgba(212, 175, 55, .18), inset 0 0 30px rgba(255, 255, 255, .8);
+}

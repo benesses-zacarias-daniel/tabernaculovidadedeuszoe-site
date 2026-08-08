@@ -1,0 +1,17 @@
+.estilo_padrao {
+    background-color: transparent;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.estilo_padrao:active,
+.estilo_padrao img:active {
+    transform: scale(.96);
+}

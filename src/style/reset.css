@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+
+    font-family: Georgia, serif;
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+
+    padding: 5px;
+    /* background:
+        radial-gradient(circle at center,
+            #5d8cff 0%,
+            #2956d4 20%,
+            #142d92 55%,
+            #071347 100%);*/
+    background:
+        radial-gradient(circle at top,
+            #ffffff 0%,
+            #f8fbff 45%,
+            #eef5ff 75%,
+            #e6eefc 100%);
+
+}

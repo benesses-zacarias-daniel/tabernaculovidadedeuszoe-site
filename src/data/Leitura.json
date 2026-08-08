@@ -1,10 +1,28 @@
 [
   {
     "id": 0,
-    "livro": "",
+    "livro": "TITO 1: 5 -  9",
     "versiculos": [
-      "",
-      ""
+      {
+        "num_vers": 5,
+        "vers": "Por esta causa te deixei em Creta, para que pusesses em boa ordem as coisas que ainda restam e, de cidade em cidade, estabelecesses presbíteros, como já te mandei:"
+      },
+      {
+        "num_vers": 6,
+        "vers": "aquele que for irrepreensível, marido de uma mulher, que tenha filhos fiéis, que não possam ser acusados de dissolução nem são desobedientes."
+      },
+      {
+        "num_vers": 7,
+        "vers": "Porque convém que o bispo seja irrepreensível como despenseiro da casa de Deus, não soberbo, nem iracundo, nem dado ao vinho, nem espancador, nem cobiçoso de torpe ganância;"
+      },
+      {
+        "num_vers": 8,
+        "vers": "mas dado à hospitalidade, amigo do bem, moderado, justo, santo, temperante,"
+      },
+      {
+        "num_vers": 9,
+        "vers": "retendo firme a fiel palavra, que é conforme a doutrina, para que seja poderoso, tanto para admoestar com a sã doutrina como para convencer os contradizentes."
+      }
     ]
   }
 ]

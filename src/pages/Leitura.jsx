@@ -1,7 +1,29 @@
+import style from "./Leitura.module.css";
+import leitura from "../data/Leitura.json";
 const Leitura = () => {
     return (
-        <div>
-            Leitura
+        <div className={style.container}>
+            <div className={style.header}>
+                <h1>
+                    {
+                        leitura[0].livro
+                    }
+                </h1>
+            </div>
+            <div className={style.content}>
+                {
+                    leitura[0].versiculos.map((versiculo) => {
+                        return (
+
+                            <div key={versiculo.num_vers} className={style.verse}>
+                                <span className={style.number}>{versiculo.num_vers}</span>
+                                {versiculo.vers}
+                            </div>
+                        )
+                    }
+                    )
+                }
+            </div>
         </div>
     )
 }
