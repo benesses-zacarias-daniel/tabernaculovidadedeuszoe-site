@@ -112,21 +112,13 @@ const Hinario = () => {
 
                             {hinoSelecionado.estrofes?.[0] && (
 
-                                <div
-                                    className={
-                                        style.primeira_estrofe
-                                    }
-                                >
+                                <div className={style.primeira_estrofe}                                >
 
                                     <p>
 
-                                        <span
-                                            className={
-                                                style.numero_estrofe
-                                            }
-                                        >
+                                        {/* <span className={style.numero_estrofe}>
                                             1.
-                                        </span>
+                                        </span> */}
 
                                         {hinoSelecionado.estrofes[0]}
 
@@ -168,12 +160,7 @@ const Hinario = () => {
                                 ?.slice(1)
                                 .map((estrofe, index) => (
 
-                                    <div
-                                        className={
-                                            style.outras_estrofes
-                                        }
-                                        key={index}
-                                    >
+                                    <div className={style.outras_estrofes} key={index}>
 
                                         <p>
 

@@ -78,11 +78,12 @@
 
 
 .header h1 {
-    font-size: clamp(30px, 3vw, 54px);
-
+    /* font-size: clamp(30px, 3vw, 54px); */
+    font-size: clamp(38px, 6vw, 56px);
     letter-spacing: 2px;
 
-    color: #ffe082;
+    /* color: #ffe082; */
+    color: #fff;
 
     margin: 0;
 }
@@ -144,10 +145,10 @@
 ========================= */
 
 .verse {
-    font-size: clamp(28px,
+    /* font-size: clamp(28px,
             2.2vw,
-            46px);
-
+            46px); */
+    font-size: clamp(44px, 4vw, 58px);
     line-height: 1.8;
 
     margin-bottom: 32px;

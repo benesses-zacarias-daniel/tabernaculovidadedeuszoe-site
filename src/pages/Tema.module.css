@@ -90,7 +90,8 @@
 
     margin: 8px 0;
 
-    font-size: clamp(26px, 3vw, 42px);
+    /* font-size: clamp(26px, 3vw, 42px); */
+    font-size: clamp(28px, 3vw, 42px);
 
     color: #0d2b7a;
 
@@ -110,13 +111,14 @@
 .tema {
     width: 100%;
 
-    margin-top: 15px;
+    /* margin-top: 15px; */
 
     display: flex;
 
     flex-direction: column;
 
     align-items: center;
+    color: #1d2433;
     justify-content: center;
 }
 
@@ -142,6 +144,7 @@
 
     color: #0d2b7a;
 
+    color: #1d2433;
     letter-spacing: 4px;
 
     font-weight: 800;
@@ -151,11 +154,11 @@
 /* TÍTULO DO TEMA */
 
 .foco {
-    font-size: clamp(32px, 4vw, 54px);
-
+    /* font-size: clamp(32px, 4vw, 54px); */
+    font-size: clamp(34px, 6vw, 50px);
     line-height: 1.2;
 
-    color: #c79a1f;
+    color: #0d2b7a;
 
     font-weight: 800;
 
@@ -176,19 +179,19 @@
 .referencia_biblicas {
     width: 90%;
 
-    max-height: 28vh;
+    height: 40px;
 
-    padding: 15px 25px;
+    padding: 2px 15px 0px 15px;
 
     border-radius: 18px;
 
-    background:
+    /* background:
         linear-gradient(135deg,
             rgba(13, 43, 122, 0.04),
             rgba(199, 154, 31, 0.06));
 
     border:
-        1px solid rgba(199, 154, 31, 0.35);
+        1px solid rgba(199, 154, 31, 0.35); */
 
     display: flex;
 
@@ -197,7 +200,7 @@
 
     flex-direction: column;
 
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 
@@ -208,8 +211,8 @@
 .livros {
     width: 100%;
 
-    font-size: clamp(26px, 3vw, 38px);
-
+    /* font-size: clamp(26px, 3vw, 38px); */
+    font-size: clamp(34px, 4vw, 40px);
     line-height: 1.6;
 
     display: flex;
@@ -221,6 +224,7 @@
     justify-content: center;
 
     color: #1d2433;
+    color: #0d2b7a;
 
     padding-left: 35px;
 }
@@ -229,7 +233,7 @@
 .livros li {
     margin-bottom: 8px;
 
-    font-weight: 700;
+    font-weight: 800;
 }
 
 
@@ -239,20 +243,23 @@
 
 .footer {
     width: 100%;
+    font-weight: 600;
 
     text-align: center;
 
-    font-size: clamp(20px, 2vw, 28px);
+    font-size: clamp(20px, 2vw, 25px);
 
     font-style: italic;
 
     letter-spacing: 1px;
 
-    color: #555;
+    /* color: #555; */
+    color: #0d2b7a;
 
     margin-top: 5px;
 
     flex-shrink: 0;
+    padding: 0px 0px 5px 0px;
 }
 
 
@@ -260,21 +267,21 @@
    RESPONSIVIDADE
 ========================= */
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
 
-    .container {
-        padding: 20px;
-    }
+} */
+.container {
+    padding: 20px;
+}
 
-    .logo {
-        width: 220px;
-    }
+.logo {
+    width: 220px;
+}
 
-    .tema h1 {
-        flex-direction: column;
-    }
+.tema h1 {
+    flex-direction: column;
+}
 
-    .referencia_biblicas {
-        width: 100%;
-    }
+.referencia_biblicas {
+    width: 100%;
 }
