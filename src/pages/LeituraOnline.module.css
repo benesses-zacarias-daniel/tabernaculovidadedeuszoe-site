@@ -1,0 +1,285 @@
+.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #ffffff;
+
+    color: #1d2433;
+}
+
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.header {
+    padding: 20px;
+
+    text-align: center;
+
+    background: #0d2b7a;
+
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+
+    font-size: 32px;
+}
+
+.header h2 {
+    margin: 5px 0 0;
+
+    font-size: 20px;
+
+    color: #c79a1f;
+}
+
+
+/* ==========================================
+   CONTROLES
+========================================== */
+
+.controles {
+    display: flex;
+
+    align-items: end;
+
+    gap: 12px;
+
+    padding: 15px 20px;
+
+    background: #f4f5f7;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+.controle {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+
+.controle label {
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+
+.controle select,
+.controle input {
+    height: 38px;
+
+    padding: 0 10px;
+
+    border: 1px solid #bbb;
+
+    border-radius: 5px;
+
+    background: white;
+
+    font-size: 15px;
+
+    color: #1d2433;
+}
+
+
+.controle select:focus,
+.controle input:focus {
+    outline: none;
+
+    border-color: #0d2b7a;
+}
+
+
+/* ==========================================
+   BOTÃO PRÓXIMO
+========================================== */
+
+.proximo {
+    height: 38px;
+
+    padding: 0 18px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #0d2b7a;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+.proximo:hover {
+    background: #17429e;
+}
+
+
+.proximo:active {
+    transform: scale(0.97);
+}
+
+
+/* ==========================================
+   CONTEÚDO
+========================================== */
+
+.content {
+    flex: 1;
+
+    overflow-y: auto;
+
+    padding: 25px 30px;
+}
+
+
+/* ==========================================
+   VERSÍCULO
+========================================== */
+
+.verse {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+    padding: 10px 12px;
+
+    margin-bottom: 4px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    line-height: 1.6;
+
+    font-size: 18px;
+
+    transition: 0.2s;
+}
+
+
+.verse:hover {
+    background: #f2f4f8;
+}
+
+
+/* ==========================================
+   NÚMERO DO VERSÍCULO
+========================================== */
+
+.number {
+    min-width: 28px;
+
+    font-weight: bold;
+
+    color: #0d2b7a;
+}
+
+
+/* ==========================================
+   TEXTO
+========================================== */
+
+.texto {
+    flex: 1;
+}
+
+
+/* ==========================================
+   VERSÍCULO ATIVO
+========================================== */
+
+.verseAtivo {
+    background: #fff4d2;
+
+    border-left: 4px solid #c79a1f;
+
+    padding-left: 8px;
+}
+
+
+/* ==========================================
+   LOADING
+========================================== */
+
+.loading {
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 18px;
+}
+
+
+/* ==========================================
+   ERRO
+========================================== */
+
+.erro {
+    padding: 12px 20px;
+
+    background: #ffe5e5;
+
+    color: #a00000;
+
+    border-bottom: 1px solid #ffb5b5;
+}
+
+
+/* ==========================================
+   RESPONSIVO
+========================================== */
+
+@media (max-width: 700px) {
+
+    .controles {
+        flex-wrap: wrap;
+
+        align-items: end;
+    }
+
+
+    .controle {
+        flex: 1;
+
+        min-width: 100px;
+    }
+
+
+    .proximo {
+        flex: 1;
+    }
+
+
+    .content {
+        padding: 15px;
+    }
+
+
+    .verse {
+        font-size: 16px;
+    }
+
+}

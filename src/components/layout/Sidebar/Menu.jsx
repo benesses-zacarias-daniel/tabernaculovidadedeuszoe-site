@@ -66,6 +66,18 @@ const Menu = ({ mostrarIcone = false, mostrarMenu = false, onClickOcultar, class
                                 }} className={classeBtnMenu} />
 
                             </Link>
+                            <Link to={"/leituraonline"} className={`${classeLinkMenu} ${(paginaActiva === "/leituraonline") ? style.pagina_activa : ""}`}>
+                                <Button children={
+                                    <>
+                                        {/* {mostrarIconesMenu && (<Img src={(paginaActiva === "/leitura") ? "" : Home} alt={"Ícone de Casa"} className={style.img_menu} />
+                                        )} */}
+                                        <p>Leitura Online</p>
+                                    </>
+                                } onClick={() => {
+                                    onClickOcultar(false);
+                                }} className={classeBtnMenu} />
+
+                            </Link>
                             <Link to={"/hinario"} className={`${classeLinkMenu} ${(paginaActiva === "/hinario") ? style.pagina_activa : ""}`}>
                                 <Button children={
                                     <>

@@ -24,5 +24,35 @@
         "vers": "retendo firme a fiel palavra, que é conforme a doutrina, para que seja poderoso, tanto para admoestar com a sã doutrina como para convencer os contradizentes."
       }
     ]
+  },
+  {
+    "id": 1,
+    "livro": "II REIS 2 : 1 - 6 ",
+    "versiculos": [
+      {
+        "num_vers": 1,
+        "vers": "Sucedeu que, quando o Senhor estava para elevar a Elias num redemoinho ao céu, Elias partiu de Gilgal com Eliseu."
+      },
+      {
+        "num_vers": 2,
+        "vers": "E disse Elias a Eliseu: Fica-te aqui, porque o Senhor me enviou a Betel. Porém Eliseu disse: Vive o Senhor, e vive a tua alma, que não te deixarei. E assim foram a Betel."
+      },
+      {
+        "num_vers": 3,
+        "vers": "Então os filhos dos profetas que estavam em Betel saíram ao encontro de Eliseu, e lhe disseram: Sabes que o Senhor hoje tomará o teu senhor por sobre a tua cabeça? E ele disse: Também eu bem o sei; calai-vos."
+      },
+      {
+        "num_vers": 4,
+        "vers": "E Elias lhe disse: Eliseu, fica-te aqui, porque o Senhor me enviou a Jericó. Porém ele disse: Vive o Senhor, e vive a tua alma, que não te deixarei. E assim foram a Jericó."
+      },
+      {
+        "num_vers": 5,
+        "vers": "Então os filhos dos profetas que estavam em Jericó se chegaram a Eliseu, e lhe disseram: Sabes que o Senhor hoje tomará o teu senhor por sobre a tua cabeça? E ele disse: Também eu bem o sei; calai-vos."
+      },
+      {
+        "num_vers": 6,
+        "vers": "E Elias disse: Fica-te aqui, porque o Senhor me enviou ao Jordão. Mas ele disse: Vive o Senhor, e vive a tua alma, que não te deixarei. E assim ambos foram juntos."
+      }
+    ]
   }
 ]

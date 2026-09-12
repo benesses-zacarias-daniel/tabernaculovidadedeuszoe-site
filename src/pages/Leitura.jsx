@@ -6,13 +6,13 @@ const Leitura = () => {
             <div className={style.header}>
                 <h1>
                     {
-                        leitura[0].livro
+                        leitura[1].livro
                     }
                 </h1>
             </div>
             <div className={style.content}>
                 {
-                    leitura[0].versiculos.map((versiculo) => {
+                    leitura[1].versiculos.map((versiculo) => {
                         return (
 
                             <div key={versiculo.num_vers} className={style.verse}>

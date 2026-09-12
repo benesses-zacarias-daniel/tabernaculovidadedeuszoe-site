@@ -22,7 +22,7 @@ const Tema = () => {
                         </span>
 
                         <span className={style.foco}>
-                            {tema[0].tema.toUpperCase()}
+                            {tema[1].tema.toUpperCase()}
                         </span>
 
                     </div>
@@ -36,7 +36,7 @@ const Tema = () => {
 
                     <h1 className={style.livros}>
                         {
-                            tema[0].livros.map((livro, pos) => {
+                            tema[1].livros.map((livro, pos) => {
                                 return (
 
                                     <li key={pos}>
