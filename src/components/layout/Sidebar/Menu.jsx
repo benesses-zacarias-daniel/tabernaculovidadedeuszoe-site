@@ -59,7 +59,7 @@ const Menu = ({ mostrarIcone = false, mostrarMenu = false, onClickOcultar, class
                                     <>
                                         {/* {mostrarIconesMenu && (<Img src={(paginaActiva === "/leitura") ? "" : Home} alt={"Ícone de Casa"} className={style.img_menu} />
                                         )} */}
-                                        <p>Leitura</p>
+                                        <p>Leitura Offline</p>
                                     </>
                                 } onClick={() => {
                                     onClickOcultar(false);

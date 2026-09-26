@@ -22,7 +22,7 @@ header {
     flex-wrap: wrap;
     width: 28px;
     height: 28px;
-    opacity: 0;
+    opacity: .09;
 }
 
 .area_logo_topo {

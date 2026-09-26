@@ -16,19 +16,20 @@ const Tema = () => {
                 <div className={style.tema}>
 
                     <div className={style.linhaTema}>
-
                         <span className={style.tituloTema}>
                             TEMA:
                         </span>
-
                         <span className={style.foco}>
-                            {tema[1].tema.toUpperCase()}
+                            {tema[2].tema}
                         </span>
 
                     </div>
 
                 </div>
             </div>
+            {/* 1
+2
+3 */}
 
             <div className={style.referencia_biblicas}>
 
@@ -36,7 +37,7 @@ const Tema = () => {
 
                     <h1 className={style.livros}>
                         {
-                            tema[1].livros.map((livro, pos) => {
+                            tema[2].livros.map((livro, pos) => {
                                 return (
 
                                     <li key={pos}>

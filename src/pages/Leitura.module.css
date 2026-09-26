@@ -173,6 +173,23 @@
     margin-right: 8px;
 }
 
+.poroximoLivro {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.anteriorLivro {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.poroximoLivro button,
+.anteriorLivro button {
+    color: #1948b8;
+    opacity: .4;
+}
 
 /* =========================
    RESPONSIVIDADE
